@@ -1,12 +1,3 @@
-"""
-A ideia é facilitar e obter informações mais rapidamente a cerca de algum vídeo no Youtube, aí tive a ideia de criar um assistente feito em IA, 
-inicialmente eu cogitei o modelo de IA da OpenIA, entretanto ocorreu um conflito entre poder e querer... No caso da OpenIA, após gerar a Chave API, 
-é necessário ter um saldo de pelo menos 5 dólares para poder utilizar o modelo de IA, ChatGPT versão 4. 
-Com base no custo e com a ideia de minimizar gaastos, optei pelo modelo de IA da Gemini (gemini-2.5-flash") que é totalmente gratuito.
-Bom, para criar a minha ideia procurei alguns vídeos sobre assistentes de IA, e com base em alguns, e analisando uma IA de análise de Viagens, modelei
-um analista de URLs de Vídeos do Youtube.
-"""
-
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -86,4 +77,5 @@ def iniciar_assistente_analise():
         print("-" * 50) 
         
 if __name__ == "__main__": 
+
     iniciar_assistente_analise()
