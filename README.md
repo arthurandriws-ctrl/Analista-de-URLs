@@ -1,4 +1,4 @@
-# Resumo_de_videos
+# Analista de URLs
 ###
 Após baixar os 2 arquivos, e realizar a instalação dos requisitos dentro do arquivo txt (requirements.txt), crie um novo arquivo chamado ".env" e dentro dele digite:
 GOOGLE_API_KEY="sua chave api do google gemini"
